@@ -1,0 +1,431 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: #040926;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+button {
+    background: #9907CC;
+    color: #fff;
+    width: 145px;
+    height: 42px;
+    border-radius: 38px;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s ease-out;
+}
+
+button:hover {
+    background: #5d067c;
+}
+
+#landing {
+    background: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 182.37%);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#header .menu span {
+    display: block;
+    background: #fff;
+    width: 22px;
+    height: 3px;
+    margin: 4px;
+    border-radius: 3px;
+}
+
+#header .menu ul, button {
+    display: none;
+}
+
+#inf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inf .start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 35px 65px;
+}
+
+#inf .start h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.062rem;
+    line-height: 2.875rem;
+}
+
+#inf .start h1, span {
+transition: 0.6s ease-out;
+}
+
+#inf .start .effect:hover h1 {
+    color: #9907CC
+}
+
+#inf .start .effect:hover span {
+    color: #fff;
+}
+
+#inf .start h1 span {
+    color: #9907CC;
+}
+
+#inf .start p {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.68rem;
+    margin-top: 9px;
+    margin-bottom: 14px;
+}
+
+#inf .start button {
+    display: inline-block;
+}
+
+#inf img {
+    width: 95%;
+    max-width: 650px;
+    padding: 0 35px;
+    margin-bottom: 60px;
+}
+
+#solution {
+    padding: 80px 35px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#solution .title {
+    margin-bottom: 47px;
+}
+
+
+#solution .title h3 {
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #9907CC;
+    margin-bottom: 16px;
+}
+
+#solution .title h2 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.81rem;
+}
+
+#solution .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+#solution .card .eclipse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: rgba(153, 7, 204, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    margin-bottom: 22px;
+}
+
+#solution .card h4 {
+    font-weight: 400;
+    font-size: 1.27rem;
+    line-height: 1.68rem;
+    margin-bottom: 8px;
+}
+
+#solution .card p {
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.5rem;
+    margin-bottom: 13px;
+}
+
+#solution .card button {
+    width: 129px;
+    height: 35.38px;
+    background: #9907CC;
+    border-radius: 1.37rem;
+}
+
+#solution .card button:hover {
+    background: #5d067c;
+    transition: 0.3s ease-out;
+}
+
+#job {
+    background: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 182.37%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 77px 35px 120px;
+}
+
+#job .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+#job .text h1 {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 1.81rem;
+    line-height: 2rem;
+    margin-bottom: 13px;
+}
+
+#job .text p {
+    font-size: 0.93rem;
+    line-height: 1.76rem;
+}
+
+#job button {
+    display: inline-block;
+    width: 140px;
+    height: 39px;
+    background: #fff;
+    color: #5d067c;
+    margin-top: 19px;
+}
+
+#job button:hover {
+    background: #5d067c;
+    color: white;
+}
+
+#job .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#job .video .bgplay {
+    position: absolute;
+}
+
+#job .video .img-pc {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 2px 3px 16px 1px #240430ec;
+}
+
+#depositions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 95px 35px 70px;
+}
+
+#depositions h3 {
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.25rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #9907CC;
+    margin-bottom: 5px;
+}
+
+#depositions>p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.18rem;
+}
+
+#depositions .clients-depositions {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 59px;
+}
+
+#depositions .clients-depositions img {
+    margin-bottom: 13px;
+}
+
+#depositions .clients {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+#depositions .clients .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17px;
+}
+
+#depositions .clients .name h5 {
+    font-weight: 400;
+    font-size: 1.06rem;
+    line-height: 1.5rem;
+    color: #9907CC;
+}
+
+#depositions .clients .name p {
+    font-weight: 400;
+    font-size: 1.06rem;
+    line-height: 1.2rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#depositions span {
+    display: inline-block;
+    width: 80%;
+    border: 1px solid #9907CC;
+    margin-top: 59px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #040926 -13.13%, rgba(153, 7, 204, 0.69) 107.73%);
+    padding: 0 35px;
+}
+
+#footer .org-social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer .logo {
+    margin-top: 52px;
+    margin-bottom: 30px;
+}
+
+#footer .social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+#footer .social-media .social {
+    position: relative;
+}
+
+#footer .social-media .social .img-social {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+
+#footer .social-media .social .img-social {
+    position: absolute;
+    right: 9px;
+    top: 9px;
+}
+
+#footer .social-media .social .face {
+    position: absolute;
+    right: 12px;
+}
+
+#footer .social-media .social span {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 7px;
+}
+
+#footer .informations {
+    display: flex;
+    margin-top: 56px;
+    margin-bottom: 28px;
+}
+
+#footer .informations .icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+#footer .informations .icon span {
+    font-weight: 400;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    margin-left: 8px;
+}
+
+#footer .informations .location {
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding-right: 30px;
+}
+
+#footer .informations .lgpd {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    padding-left: 15px;
+}
+
+#footer .row {
+    width: 80%;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    margin-bottom: 25px;
+}
+
+#footer .signature {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-bottom: 26px;
+}
